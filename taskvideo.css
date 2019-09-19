@@ -1,0 +1,29 @@
+td{
+	text-align: center;
+	border: double;
+	border-style: all;
+	border-color: #A4A4A4
+}
+table{
+	background-color: #58FA58;
+	border: 10px;
+
+}
+.dimen{
+	align-content: center;
+	font-family: old english text mt;
+	font-size: 130%;
+
+}
+.dimen2{
+	background-color: #2ECCFA;
+	font-family: matura mt script capitals;
+	font-size: 150%;
+}
+body{
+background-color: black;
+}
+td{
+	font-family: old english text mt;
+	font-size: 125%;
+}
