@@ -13,5 +13,55 @@ tr{
 }
 h1{
 	text-align: center;
-	font-size: 40px;
+	font-size: 60px;
+	/*display: inline;*/
+	border: 2px;
+	border-style: none;
+	/*border-width: 8px;*/
+	font-family: Colonna MT;
+	display: inline;
+	float: right;
+	margin-top: 55px;
+	margin-right: 290px;
+}
+p{
+border:2px;
+width: 400px;
+height: 200px;
+overflow: auto;
+display: inline;
+}
+#staffimages{
+	float: center;
+}
+#imagologo{display: inline;
+	height: 150px;
+	width: 150px;
+}
+#imago2{
+	width: 400px;
+	height: 350px;
+	display: inline;
+}
+#upperalphalist{
+	list-style-type: upper-alpha;
+	display: inline;
+	float: right;
+	border: 2px;
+	border-style: double;
+}
+#romanlist{
+	list-style-type: lower-roman;
+}
+#homelinks{
+	margin-bottom: 300px;
+	margin-left: 250px;
+	padding: 20px 50px;
+	border-width: 1px; border-color: black;
+	border-style: none;
+	display: inline;
+	float: center;
+}
+#pmessage{
+	
 }
