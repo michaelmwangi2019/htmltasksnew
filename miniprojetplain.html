@@ -5,16 +5,16 @@
 	<title>Mini Project Plain</title>
   <link rel="stylesheet" type="text/css" href="miniproject.css">
 </head>
-<body>
+<body BACKGROUND="bckgrnd.jpg" BGCOLOR="#000000" BGPROPERTIES="FIXED">
   
-   <img id="imagologo" src="logo.jpg" ><h1>EAGLES UNIVERSITY OF KENYA</h1><br>
+   <img id="imagologo" src="logo.jpg" ><h1>EAGLES UNIVERSITY OF ARTS</h1><br>
   
-<p id="homelinks"> <a href="C:/Users/Michael/Desktop/htmltasksnew/miniproject.html">HOME</a>  &emsp | <a href="C:/Users/Michael/Desktop/htmltasksnew/miniproject.html">ACADEMICS</a> &emsp  | <a href="C:/Users/Michael/Desktop/htmltasksnew/miniproject.html">STUDENTS</a> | &emsp  <a href="C:/Users/Michael/Desktop/htmltasksnew/miniproject.html">DOWNLOADS</a> | &emsp  <a href="C:/Users/Michael/Desktop/htmltasksnew/miniproject.html">CONTACTS</a></p><br>
+<p id="homelinks"> <a href="C:/Users/Michael/Desktop/htmltasksnew/miniproject.html">HOME</a> |  &emsp; | <a href="C:/Users/Michael/Desktop/htmltasksnew/miniproject.html">ACADEMICS</a> &emsp;  | <a href="C:/Users/Michael/Desktop/htmltasksnew/miniproject.html">STUDENTS</a>  &emsp; | <a href="C:/Users/Michael/Desktop/htmltasksnew/miniproject.html">DOWNLOADS</a>  &emsp; | <a href="C:/Users/Michael/Desktop/htmltasksnew/miniproject.html">CONTACTS</a></p><br>
   
   <p id="staffimages">
     <img title="University Chancellor" src="imgchancellor.jpg" width="200px">Prof.Kamau K.(Phd)
     <img title="Vice Chancellor" src="imgvc.jpg">Prof.Dimitri
-    <img title="Deputy VC Academics" src="imgdvcfinance.jpg">Dr.Punjani
+    <img title="Deputy VC Academics" src="imgdvcfinance.jpg">Dr.Punjabi
     <img title="Deputy VC Finance" src="imgdvcacademic.jpg">Dr.Karanja
     <img title="Deputy VC Admin" src="imgdvcadmin.jpg">Dr. Kilonzo
     <br>
@@ -23,18 +23,13 @@
   <h2 style="color: blue; font-family: Blackadder ITC; font-size: 30px;">Message from the chancellor</h2>
 <p style="font-family: Blackadder ITC; font-size: 25px;">Hypertext Transfer Protocol (HTTP) is a protocol that enables communications between clients<br>(user request on a browser) and servers(request storage location).
   A website will have the client<br> side(where the visitors view and interact with the website and server side( where all requests<br> clicks, search, submit, save…requests from client are processed). HTTP works as a request<br>-response protocol between a client and server.
-Hypertext Transfer Protocol (HTTP) is a protocol<br> that enables communications between clients(user request on a browser) and servers.</p><br><br>
+Hypertext Transfer Protocol (HTTP) is a protocol<br> that enables communications between clients(user request on a browser) and servers.</p><br><br><br>
 
-   <img title="Main Campus" id="imago2" src="unipic.jpg"/><br>
+<marquee direction="down"><img src="home.jpg" alt="Home"><img title="Main Campus" id="imago2" src="unipic.jpg"/><br></marquee>
 
-  <ol id="upperalphalist">
-  <li>Information Technology</li>
-  <li>Human Resource Management</li>
-  <li>Food Production</li>
-  <li>Medicine</li>
-  <li>Business Administration</li>
-</ol>
+<!--<hr width="5" size="200" noshade="5">-->
 
+<div id="divcourses">
 <select>
   <optgroup label="Information Technology">
     <option>Courses on Offer</option>
@@ -47,7 +42,7 @@ Hypertext Transfer Protocol (HTTP) is a protocol<br> that enables communications
   </optgroup>
    <optgroup label="Food Production">
     <option>Pastry</option>
-    <option>Food & Beverage</option>
+    <option>Food & Beverages</option>
   </optgroup>
   <optgroup label="Medicine">
     <option>Psychology</option>
@@ -55,7 +50,21 @@ Hypertext Transfer Protocol (HTTP) is a protocol<br> that enables communications
     <option>Dental Studies</option>
   </optgroup>
 </select>
+</div>
 
+<hr id="hrhrzntl" size="5" color="black" noshade="5" width="80%" align="left">
+
+<div id="divfivecourses">
+<ol id="upperalphalist">
+  <li>Information Technology</li>
+  <li>Human Resource Management</li>
+  <li>Food Production</li>
+  <li>Medicine</li>
+  <li>Business Administration</li>
+</ol>
+</div><br>
+
+<div id="divcampuses">
 List of Campuses
 
 <ol id="romanlist">
@@ -66,31 +75,43 @@ List of Campuses
   <li>Muranga</li>
   <li>Nakuru</li>
 </ol>
+</div>
 <br>
 
+<div id="divcontacts">
 <address>
 Eagles University of Kenya.<br><br>
 Visit us at:<br>
-https://www.eaglesuniversity.ac.ke/<br><br>
+<a href="www.info@admin.eaglesuniversity.ac.ke">https://www.eaglesuniversity.ac.ke/<br><br></a>
 Write us at:<br>
 321 Koinange Street<br>
 University Way, P.O.Box 84121<br>
 Nairobi, Kenya.
 </address>
+</div>
 <br>
 
-Social Media Links<br>
+<div id="divsocialmedia">
+Catch us on Social Media
 
-<a href="#">@eaglesuniversity</a>
-<a href="#">www.eaglesuniversity.ac.ke</a>
-<a href="#">eaglesunity@facebook</a>
-<a href="#">info@admin.eaglesuniversity.ac.ke</a>
-<a href="#">eaglesuni@intagram</a>
-     
+<ol id="romanlist">
+  <li><a href="#"><img width="40" height="40" src="iconfb.jpg">like us here</a></li>
+  <li><a href="#"><img width="40" height="40" src="icontwitter.png">@eaglesuniversity</a></li>
+  <li><a href="#"><img width="40" height="40" src="iconinstagram.jpg">eaglesuni</a></li>
+  <li><a href="#"><img width="40" height="40" src="iconyoutube.jpg">eaglesuniversity videos</a></li>
+  <li><a href="#"><img width="40" height="40" src="iconwhatsapp.jpg">whatsapp</a></li>
+</ol>
+</div>
+<br>
+<div id="developerinfo">
+  <p>Page created by: Michael Mwangi</p>
+  <p>Contact information: <a href="mailto:test@example.com">
+  michaelmwangi19@outlook.com www.github.com</a>.</p>
+</div>
 </body>
-<footer>
+<!--<footer>
   HTML.com © 2019 Michaelmwangi Ltd. Registered office: College House, 2nd Floor, Uni.Way Koinange Street, Nairobi, W1T 3BL, Kenya Sitemap | Privacy
 
 Read more: https://www.github.com/michaelmwangi2019/developer/#ixzz60QZ.htm
-</footer>
+</footer>-->
 </html>
